@@ -1,0 +1,210 @@
+@media ( max-width: 1199px )
+    .promo 
+        .promo_header
+            font-size: 50px
+        .promo_subheader
+            font-size: 30px
+    .reason 
+        .reason_descr
+            width: 315px
+    .opportunities .opportunity_block
+        width: 100%
+    footer 
+        .store img
+            max-width: 88px
+        .divider
+            width: 263px
+        .main_pages
+            justify-content: space-between
+        .secondary_pages
+            font-size: 9px
+
+@media (max-width: 991px)
+    .subheader 
+        .subheader_phone
+            font-size: 20px
+        .subheader_btn
+            width: 100%
+            height: 40px
+            margin-top: 20px
+
+    nav 
+        .menu
+            padding: 0
+            .menu_link
+                font-size: 13px
+    .promo
+        .promo_header
+            font-size: 37px
+        .promo_subheader
+            font-size: 30px
+    .reason
+        .col-md-6
+            align-items: flex-start
+        .reason_block
+            flex-direction: column
+        .reason_descr
+            margin-top: 10px
+            text-align: justify
+        .reason_round 
+            margin-right: 0
+    .choice img
+        width: 100%
+
+    footer
+        .store
+            height: 100%
+            top: 0px
+            display: flex
+            flex-direction: column
+            justify-content: space-around
+            &_item
+                margin-right: 0
+                margin-top: 2px
+
+@media (max-width: 767px)
+    nav 
+        .menu
+            position: fixed
+            top: 0
+            left: -100%
+            height: 100vh
+            width: 50%
+            justify-content: center
+            flex-direction: column
+            background-color: rgba(0,0,0,0.8)
+            padding: 20px 15px
+            transition: 0.6s all
+            &_active
+                left: 0
+            &_item
+                width: 100%
+                text-align: center
+            .menu_link
+                margin-top: 10px
+                font-size: 20px
+                display: block
+        .hamburger
+            padding-right: 20px
+            display: flex
+            justify-content: center
+            flex-direction: column
+            align-items: flex-end
+            min-height: 50px
+            span
+                background-color: white
+                display: block
+                margin-top: 4px
+                width: 25px
+                height: 2px
+                transition: 0.5s all
+                &:nth-child(2)
+                    opacity: 1
+            &_active
+                span
+                    margin-top: -1.68px
+                    &:nth-child(1)
+                        transform: rotate(-45deg)
+                    &:nth-child(2)
+                        opacity: 0
+                        transition: none
+                    &:nth-child(3)
+                        transform: rotate(45deg)
+    .subheader 
+        .subheader_logo
+            // width: 100%
+        .subheader_btn
+            display: block
+            float: right
+            width: 150px
+            margin-top: 5px
+            &:hover
+                background-image: linear-gradient(to top, $main-color 0%, #4ce2ff 100%)
+        .xs-hidden
+            display: none
+        .xs-visible
+            display: block
+    .promo
+        .promo_header
+            line-height: 45px
+        .promo_btn
+            &:hover
+                background-image: linear-gradient(to top, $main-color 0%, #4ce2ff 100%)
+    footer 
+        .social_media
+            top: 0px
+            height: 100%
+            flex-wrap: wrap
+            width: 90px
+            .item_last
+                    margin-right: 6px
+        .main_pages
+            font-size: 12px
+        .divider
+            width: 200px
+        .secondary_pages
+            font-size: 7.5px
+
+@media (max-width: 575px)
+    nav
+        .menu
+            width: 87%
+    .subheader
+        .subheader_phone
+            font-size: 12px
+            margin-top: 12px
+        .subheader_logo
+            img
+                width: 135.5px
+                height: 45px
+        .subheader_btn
+            font-size: 9px
+            height: 27px
+            width: 100px
+    .promo 
+        padding-bottom: 100px
+        .promo_header
+            font-size: 30px
+            line-height: 33px
+        .promo_subheader
+            font-size: 18px
+        .promo_text
+            font-size: 14px
+            line-height: 20px
+        .promo_btn
+            width: 200px
+            height: 50px
+            font-size: 14px
+    .title
+        font-size: 28px
+    .choice
+        min-height: 300px
+        padding-bottom: 57px 
+        background: none
+        .choice_descr
+            color: white
+            position: relative
+            z-index: 2
+        .black_bg
+            height: 100%
+    footer
+        .main_pages
+            justify-content: space-around
+        .secondary_pages
+            justify-content: space-around
+        .divider
+            width: 85% 
+        .social_media
+            position: relative
+            width: 100%
+            left: 0
+            margin-top: 5px
+        .store
+            position: relative
+            flex-direction: row
+            width: 100%
+            left: 0
+            margin-top: 5px
+
+    
+
